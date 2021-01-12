@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Display Article</string>
+    <string name="article_title">Android </string>
+    <string name="article_subtitle">Long article of Android</string>
+    <string name="article_text">
+        Extracted from https://en.wikipedia.org/wiki/Android_(operating_system)
+
+        \n\n
+        <b>Android</b> is a mobile operating system based on a modified version of the Linux kernel and other open source software,
+        designed primarily for touchscreen mobile devices such as smartphones and tablets.
+
+        \n\n
+        Android is developed by a consortium of developers known as the Open Handset Alliance and commercially sponsored by Google.
+
+        \n\n It was unveiled in November 2007, with the first commercial Android device launched in September 2008.
+
+        \n\n
+        <i>It is free and open source software;</i> its source code is known as Android Open Source Project (AOSP),
+        which is primarily licensed under the Apache License.
+
+        \n\n
+        However most Android devices ship with additional proprietary software pre-installed,[10] most notably Google Mobile Services (GMS)
+        [11] which includes core apps such as Google Chrome, the digital distribution platform Google Play and associated
+        Google Play Services development platform.
+    </string>
+</resources>
