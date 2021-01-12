@@ -26,6 +26,13 @@ public class Order extends AppCompatActivity implements OnItemSelectedListener {
         //provide the options of the spinner
         ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this,
                 R.array.phoneoptions, android.R.layout.simple_spinner_item);
+        //apply the adapter to the spinner
+        adapter.setDropDownViewResource
+                (android.R.layout.simple_spinner_dropdown_item);
+        if(spinner!=null){
+            spinner.setAdapter(adapter);
+        }
+
     }
 
     public void onRadioClick(View view){

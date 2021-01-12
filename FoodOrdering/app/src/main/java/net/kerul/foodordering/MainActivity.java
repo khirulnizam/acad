@@ -1,11 +1,14 @@
 package net.kerul.foodordering;
 
+import android.content.DialogInterface;
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.snackbar.Snackbar;
 
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.navigation.fragment.NavHostFragment;
@@ -14,6 +17,7 @@ import android.view.View;
 
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -53,9 +57,46 @@ public class MainActivity extends AppCompatActivity {
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
+            Toast.makeText(this,"Settings menu",Toast.LENGTH_SHORT).show();
+            return true;
+        }
+        else if(id == R.id.action_info){
+            Uri webpage = Uri.parse("https://itrain.com.my");
+            Intent intent = new Intent(Intent.ACTION_VIEW,webpage);
+            startActivity(intent);//show the webpage
+            return true;
+        }
+        else if(id == R.id.action_dialog){
+            //
+            onClickShowAlert();
+            return true;
+        }
+        else if(id == R.id.action_date){
+            //Uri webpage = Uri.parse("https://itrain.com.my");
+            Intent intent = new Intent(this,DatePickerActivity.class);
+            startActivity(intent);//show the webpage
             return true;
         }
 
         return super.onOptionsItemSelected(item);
+    }
+    public void onClickShowAlert(){
+        AlertDialog.Builder myalert = new AlertDialog.Builder(MainActivity.this);
+        myalert.setTitle("Alert Dialog");//title
+        //message body
+        myalert.setMessage("Click OK to execute, Cancel to abort");
+        myalert.setPositiveButton("OK", new DialogInterface.OnClickListener(){
+            public void onClick(DialogInterface dialog, int which){
+                //temporary
+                Toast.makeText(getApplicationContext(),"OK pressed", Toast.LENGTH_SHORT).show();
+            }
+        });
+        myalert.setNegativeButton("Cancel Task", new DialogInterface.OnClickListener(){
+            public void onClick(DialogInterface dialog, int which){
+                //temporary
+                Toast.makeText(getApplicationContext(),"Cancel pressed", Toast.LENGTH_SHORT).show();
+            }
+        });
+        myalert.show();
     }
 }
