@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Food Ordering</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">Droid Deserts</string>
+    <string name="second_fragment_label">Ordering</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Droid Deserts</string>
+    <string name="hello_second_fragment">Ordering</string>
+
+    <string name="describedonut">
+        A doughnut or donut (the latter spelling often seen in American English and Canadian English))
+        is a type of fried dough confection or dessert food.
+        \n\n
+        It is popular in many countries and is prepared in various forms as a sweet snack that can be
+        homemade or purchased in bakeries, supermarkets, food stalls, and franchised specialty vendors.
+    </string>
+</resources>
