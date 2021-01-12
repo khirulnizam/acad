@@ -17,4 +17,11 @@
         It is popular in many countries and is prepared in various forms as a sweet snack that can be
         homemade or purchased in bakeries, supermarkets, food stalls, and franchised specialty vendors.
     </string>
+
+    <string-array name="phoneoptions">
+        <item>Home</item>
+        <item>Work</item>
+        <item>Mobile</item>
+        <item>Others</item>
+    </string-array>
 </resources>
