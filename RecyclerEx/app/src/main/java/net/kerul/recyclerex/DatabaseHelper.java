@@ -6,7 +6,7 @@ import android.database.sqlite.SQLiteOpenHelper;
 
 public class DatabaseHelper extends SQLiteOpenHelper {
     public static final String DATABASENAME="keepword.db";
-    public static final int DATABASEVERSION=1;
+    public static final int DATABASEVERSION=2;
     public static final String TABLENAME="tbl_words";
     //constructor
     public DatabaseHelper (Context context){
@@ -24,6 +24,12 @@ public class DatabaseHelper extends SQLiteOpenHelper {
                 "VALUES('good afternoon','bonne apres-midi')");
         db.execSQL("INSERT INTO "+TABLENAME+" (english, france) " +
                 "VALUES('good night','bonne nuit')");
+        db.execSQL("INSERT INTO "+TABLENAME+" (english, france) " +
+                "VALUES('breakfast','petit déjeuner')");
+        db.execSQL("INSERT INTO "+TABLENAME+" (english, france) " +
+                "VALUES('lunch','le déjeuner')");
+        db.execSQL("INSERT INTO "+TABLENAME+" (english, france) " +
+                "VALUES('dinner','dîner')");
     }
 
     @Override
