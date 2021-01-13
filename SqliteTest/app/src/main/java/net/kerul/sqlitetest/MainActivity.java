@@ -28,10 +28,9 @@ public class MainActivity extends AppCompatActivity {
 
         //GUI
         recyclerView = (RecyclerView) findViewById(R.id.recyclerView);
-        fbtnAdd = (FloatingActionButton) findViewById(R.id.fbtnAdd);
+        //fbtnAdd = (FloatingActionButton) findViewById(R.id.fbtnAdd);
         //database ignite
         database_helper = new DatabaseHelper(this);
-
 
     }
 
@@ -41,9 +40,10 @@ public class MainActivity extends AppCompatActivity {
 
     public void displayNotes() {
         arrayList = new ArrayList<>(database_helper.getNotes());
-        recyclerView.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false));
-        recyclerView.setItemAnimator(new DefaultItemAnimator());
-        NotesAdapter adapter = new NotesAdapter(getApplicationContext(), this, arrayList);
+        LinearLayoutManager lmanager=new LinearLayoutManager(this);
+        recyclerView.setLayoutManager(lmanager);
+        //recyclerView.setItemAnimator(new DefaultItemAnimator());
+        NotesAdapter adapter = new NotesAdapter(getApplicationContext(),this, arrayList);
         recyclerView.setAdapter(adapter);
     }
 

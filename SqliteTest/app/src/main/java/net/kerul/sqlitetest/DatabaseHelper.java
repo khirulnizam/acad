@@ -19,6 +19,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
 
     public DatabaseHelper(Context context) {
         super(context, DATABASE_NAME, null, DATABASE_VERSION);
+        //onCreate(db);
     }
 
     @Override
@@ -38,8 +39,8 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         //this.addNotes("Chapter02","GUI widgets in XML");
         //this.addNotes("Chapter03","Java programming");
         //this.addNotes("Chapter04","Adding buttons");
-        //this.addNotes("Chapter05","Adding edittext");
-        //this.addNotes("Chapter06","Adding layout");
+        this.addNotes("Chapter05","Adding edittext");
+        this.addNotes("Chapter06","Adding layout");
     }
 
     //upgrading database
@@ -59,7 +60,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         //inserting new row
         sqLiteDatabase.insert(TABLE_NAME, null, values);
         //close database connection
-        sqLiteDatabase.close();
+        //sqLiteDatabase.close();
     }
 
     //get the all notes
