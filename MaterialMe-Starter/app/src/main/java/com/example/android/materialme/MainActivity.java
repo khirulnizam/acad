@@ -17,10 +17,12 @@
 package com.example.android.materialme;
 
 import android.content.res.TypedArray;
+import android.media.MediaRouter;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.support.v7.widget.helper.ItemTouchHelper;
 
 import java.util.ArrayList;
 
@@ -52,6 +54,9 @@ public class MainActivity extends AppCompatActivity {
         // Initialize the adapter and set it to the RecyclerView.
         mAdapter = new SportsAdapter(this, mSportsData);
         mRecyclerView.setAdapter(mAdapter);
+        //attach touch helper to recylerview
+        helper.attachToRecyclerView(mRecyclerView);
+
 
         // Get the data.
         initializeData();
@@ -84,6 +89,22 @@ public class MainActivity extends AppCompatActivity {
         mAdapter.notifyDataSetChanged();
         //clean up
         sportsImageResources.recycle();
-    }
+    }//end initilizeData
+
+    ItemTouchHelper helper = new ItemTouchHelper(
+            new ItemTouchHelper.SimpleCallback(0,ItemTouchHelper.LEFT|ItemTouchHelper.RIGHT) {
+                @Override
+                public boolean onMove(RecyclerView recyclerView, RecyclerView.ViewHolder viewHolder, RecyclerView.ViewHolder target) {
+                    return false;
+                }
+
+                @Override
+                public void onSwiped(RecyclerView.ViewHolder viewHolder, int direction) {
+                    mSportsData.remove(viewHolder.getAdapterPosition());
+                    //mSportsData.remove(viewHolder.getAdapterPosition());
+                }
+            }
+    );
 
 }
+

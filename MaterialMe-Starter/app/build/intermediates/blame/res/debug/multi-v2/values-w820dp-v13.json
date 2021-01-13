@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\acad\\acad\\acad\\android-fundamentals-starter-apps-v2\\MaterialMe-Starter\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w820dp-v13\\values-w820dp-v13.xml",
+            "outputFile": "D:\\acad\\acad\\acad\\MaterialMe-Starter\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w820dp-v13\\values-w820dp-v13.xml",
             "map": [
                 {
-                    "source": "D:\\acad\\acad\\acad\\android-fundamentals-starter-apps-v2\\MaterialMe-Starter\\app\\src\\main\\res\\values-w820dp\\dimens.xml",
+                    "source": "D:\\acad\\acad\\acad\\MaterialMe-Starter\\app\\src\\main\\res\\values-w820dp\\dimens.xml",
                     "from": {
                         "startLines": "19",
                         "startColumns": "4",

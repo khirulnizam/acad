@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\acad\\acad\\acad\\android-fundamentals-starter-apps-v2\\MaterialMe-Starter\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-is\\values-is.xml",
+            "outputFile": "D:\\acad\\acad\\acad\\MaterialMe-Starter\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-is\\values-is.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Mahani\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\eedc0dabc1b199775d4e377f92ebb851\\res\\values-is\\values-is.xml",

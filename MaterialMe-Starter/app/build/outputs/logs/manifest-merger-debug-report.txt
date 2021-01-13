@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\acad\acad\acad\android-fundamentals-starter-apps-v2\MaterialMe-Starter\app\src\main\AndroidManifest.xml:17:1-35:12
-INJECTED from D:\acad\acad\acad\android-fundamentals-starter-apps-v2\MaterialMe-Starter\app\src\main\AndroidManifest.xml:17:1-35:12
-INJECTED from D:\acad\acad\acad\android-fundamentals-starter-apps-v2\MaterialMe-Starter\app\src\main\AndroidManifest.xml:17:1-35:12
-INJECTED from D:\acad\acad\acad\android-fundamentals-starter-apps-v2\MaterialMe-Starter\app\src\main\AndroidManifest.xml:17:1-35:12
+ADDED from D:\acad\acad\acad\MaterialMe-Starter\app\src\main\AndroidManifest.xml:17:1-35:12
+INJECTED from D:\acad\acad\acad\MaterialMe-Starter\app\src\main\AndroidManifest.xml:17:1-35:12
+INJECTED from D:\acad\acad\acad\MaterialMe-Starter\app\src\main\AndroidManifest.xml:17:1-35:12
+INJECTED from D:\acad\acad\acad\MaterialMe-Starter\app\src\main\AndroidManifest.xml:17:1-35:12
 MERGED from [com.android.support:cardview-v7:27.1.1] C:\Users\Mahani\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.1.1.aar\2d4ce9cd46b1f61e2dc514e3d1d2f4dd\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Mahani\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\eedc0dabc1b199775d4e377f92ebb851\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\Mahani\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\0cc857bbb0c04c81e4501dd0d8aaaaa3\AndroidManifest.xml:17:1-22:12
@@ -17,53 +17,53 @@ MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Mahani\.gradle
 MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Mahani\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\09d8e766f87c131d9c40e704834b6949\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Mahani\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\d298d4dd4a29cc8a4b8442c8cc13ca5c\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Mahani\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\aeb97860fa39eb575d64367646b4a65f\AndroidManifest.xml:17:1-22:12
-INJECTED from D:\acad\acad\acad\android-fundamentals-starter-apps-v2\MaterialMe-Starter\app\src\main\AndroidManifest.xml:17:1-35:12
-INJECTED from D:\acad\acad\acad\android-fundamentals-starter-apps-v2\MaterialMe-Starter\app\src\main\AndroidManifest.xml:17:1-35:12
-INJECTED from D:\acad\acad\acad\android-fundamentals-starter-apps-v2\MaterialMe-Starter\app\src\main\AndroidManifest.xml:17:1-35:12
+INJECTED from D:\acad\acad\acad\MaterialMe-Starter\app\src\main\AndroidManifest.xml:17:1-35:12
+INJECTED from D:\acad\acad\acad\MaterialMe-Starter\app\src\main\AndroidManifest.xml:17:1-35:12
+INJECTED from D:\acad\acad\acad\MaterialMe-Starter\app\src\main\AndroidManifest.xml:17:1-35:12
 	package
-		ADDED from D:\acad\acad\acad\android-fundamentals-starter-apps-v2\MaterialMe-Starter\app\src\main\AndroidManifest.xml:18:5-45
-		INJECTED from D:\acad\acad\acad\android-fundamentals-starter-apps-v2\MaterialMe-Starter\app\src\main\AndroidManifest.xml
-		INJECTED from D:\acad\acad\acad\android-fundamentals-starter-apps-v2\MaterialMe-Starter\app\src\main\AndroidManifest.xml
+		ADDED from D:\acad\acad\acad\MaterialMe-Starter\app\src\main\AndroidManifest.xml:18:5-45
+		INJECTED from D:\acad\acad\acad\MaterialMe-Starter\app\src\main\AndroidManifest.xml
+		INJECTED from D:\acad\acad\acad\MaterialMe-Starter\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from D:\acad\acad\acad\android-fundamentals-starter-apps-v2\MaterialMe-Starter\app\src\main\AndroidManifest.xml
-		ADDED from D:\acad\acad\acad\android-fundamentals-starter-apps-v2\MaterialMe-Starter\app\src\main\AndroidManifest.xml:17:1-35:12
-		INJECTED from D:\acad\acad\acad\android-fundamentals-starter-apps-v2\MaterialMe-Starter\app\src\main\AndroidManifest.xml
+		INJECTED from D:\acad\acad\acad\MaterialMe-Starter\app\src\main\AndroidManifest.xml
+		ADDED from D:\acad\acad\acad\MaterialMe-Starter\app\src\main\AndroidManifest.xml:17:1-35:12
+		INJECTED from D:\acad\acad\acad\MaterialMe-Starter\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from D:\acad\acad\acad\android-fundamentals-starter-apps-v2\MaterialMe-Starter\app\src\main\AndroidManifest.xml
-		ADDED from D:\acad\acad\acad\android-fundamentals-starter-apps-v2\MaterialMe-Starter\app\src\main\AndroidManifest.xml:17:1-35:12
-		INJECTED from D:\acad\acad\acad\android-fundamentals-starter-apps-v2\MaterialMe-Starter\app\src\main\AndroidManifest.xml
+		INJECTED from D:\acad\acad\acad\MaterialMe-Starter\app\src\main\AndroidManifest.xml
+		ADDED from D:\acad\acad\acad\MaterialMe-Starter\app\src\main\AndroidManifest.xml:17:1-35:12
+		INJECTED from D:\acad\acad\acad\MaterialMe-Starter\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from D:\acad\acad\acad\android-fundamentals-starter-apps-v2\MaterialMe-Starter\app\src\main\AndroidManifest.xml:17:11-69
+		ADDED from D:\acad\acad\acad\MaterialMe-Starter\app\src\main\AndroidManifest.xml:17:11-69
 application
-ADDED from D:\acad\acad\acad\android-fundamentals-starter-apps-v2\MaterialMe-Starter\app\src\main\AndroidManifest.xml:20:5-33:19
+ADDED from D:\acad\acad\acad\MaterialMe-Starter\app\src\main\AndroidManifest.xml:20:5-33:19
 	android:supportsRtl
-		ADDED from D:\acad\acad\acad\android-fundamentals-starter-apps-v2\MaterialMe-Starter\app\src\main\AndroidManifest.xml:24:9-35
+		ADDED from D:\acad\acad\acad\MaterialMe-Starter\app\src\main\AndroidManifest.xml:24:9-35
 	android:label
-		ADDED from D:\acad\acad\acad\android-fundamentals-starter-apps-v2\MaterialMe-Starter\app\src\main\AndroidManifest.xml:23:9-41
+		ADDED from D:\acad\acad\acad\MaterialMe-Starter\app\src\main\AndroidManifest.xml:23:9-41
 	android:icon
-		ADDED from D:\acad\acad\acad\android-fundamentals-starter-apps-v2\MaterialMe-Starter\app\src\main\AndroidManifest.xml:22:9-43
+		ADDED from D:\acad\acad\acad\MaterialMe-Starter\app\src\main\AndroidManifest.xml:22:9-43
 	android:allowBackup
-		ADDED from D:\acad\acad\acad\android-fundamentals-starter-apps-v2\MaterialMe-Starter\app\src\main\AndroidManifest.xml:21:9-35
+		ADDED from D:\acad\acad\acad\MaterialMe-Starter\app\src\main\AndroidManifest.xml:21:9-35
 	android:theme
-		ADDED from D:\acad\acad\acad\android-fundamentals-starter-apps-v2\MaterialMe-Starter\app\src\main\AndroidManifest.xml:25:9-40
+		ADDED from D:\acad\acad\acad\MaterialMe-Starter\app\src\main\AndroidManifest.xml:25:9-40
 activity#com.example.android.materialme.MainActivity
-ADDED from D:\acad\acad\acad\android-fundamentals-starter-apps-v2\MaterialMe-Starter\app\src\main\AndroidManifest.xml:26:9-32:20
+ADDED from D:\acad\acad\acad\MaterialMe-Starter\app\src\main\AndroidManifest.xml:26:9-32:20
 	android:name
-		ADDED from D:\acad\acad\acad\android-fundamentals-starter-apps-v2\MaterialMe-Starter\app\src\main\AndroidManifest.xml:26:19-77
+		ADDED from D:\acad\acad\acad\MaterialMe-Starter\app\src\main\AndroidManifest.xml:26:19-77
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\acad\acad\acad\android-fundamentals-starter-apps-v2\MaterialMe-Starter\app\src\main\AndroidManifest.xml:27:13-31:29
+ADDED from D:\acad\acad\acad\MaterialMe-Starter\app\src\main\AndroidManifest.xml:27:13-31:29
 action#android.intent.action.MAIN
-ADDED from D:\acad\acad\acad\android-fundamentals-starter-apps-v2\MaterialMe-Starter\app\src\main\AndroidManifest.xml:28:17-69
+ADDED from D:\acad\acad\acad\MaterialMe-Starter\app\src\main\AndroidManifest.xml:28:17-69
 	android:name
-		ADDED from D:\acad\acad\acad\android-fundamentals-starter-apps-v2\MaterialMe-Starter\app\src\main\AndroidManifest.xml:28:25-66
+		ADDED from D:\acad\acad\acad\MaterialMe-Starter\app\src\main\AndroidManifest.xml:28:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\acad\acad\acad\android-fundamentals-starter-apps-v2\MaterialMe-Starter\app\src\main\AndroidManifest.xml:30:17-77
+ADDED from D:\acad\acad\acad\MaterialMe-Starter\app\src\main\AndroidManifest.xml:30:17-77
 	android:name
-		ADDED from D:\acad\acad\acad\android-fundamentals-starter-apps-v2\MaterialMe-Starter\app\src\main\AndroidManifest.xml:30:27-74
+		ADDED from D:\acad\acad\acad\MaterialMe-Starter\app\src\main\AndroidManifest.xml:30:27-74
 uses-sdk
-INJECTED from D:\acad\acad\acad\android-fundamentals-starter-apps-v2\MaterialMe-Starter\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from D:\acad\acad\acad\android-fundamentals-starter-apps-v2\MaterialMe-Starter\app\src\main\AndroidManifest.xml
-INJECTED from D:\acad\acad\acad\android-fundamentals-starter-apps-v2\MaterialMe-Starter\app\src\main\AndroidManifest.xml
+INJECTED from D:\acad\acad\acad\MaterialMe-Starter\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\acad\acad\acad\MaterialMe-Starter\app\src\main\AndroidManifest.xml
+INJECTED from D:\acad\acad\acad\MaterialMe-Starter\app\src\main\AndroidManifest.xml
 MERGED from [com.android.support:cardview-v7:27.1.1] C:\Users\Mahani\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.1.1.aar\2d4ce9cd46b1f61e2dc514e3d1d2f4dd\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:cardview-v7:27.1.1] C:\Users\Mahani\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.1.1.aar\2d4ce9cd46b1f61e2dc514e3d1d2f4dd\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Mahani\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\eedc0dabc1b199775d4e377f92ebb851\AndroidManifest.xml:20:5-44
@@ -90,13 +90,13 @@ MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Mahani\.gradle\cache
 MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Mahani\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\d298d4dd4a29cc8a4b8442c8cc13ca5c\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Mahani\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\aeb97860fa39eb575d64367646b4a65f\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Mahani\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\aeb97860fa39eb575d64367646b4a65f\AndroidManifest.xml:20:5-44
-INJECTED from D:\acad\acad\acad\android-fundamentals-starter-apps-v2\MaterialMe-Starter\app\src\main\AndroidManifest.xml
-INJECTED from D:\acad\acad\acad\android-fundamentals-starter-apps-v2\MaterialMe-Starter\app\src\main\AndroidManifest.xml
+INJECTED from D:\acad\acad\acad\MaterialMe-Starter\app\src\main\AndroidManifest.xml
+INJECTED from D:\acad\acad\acad\MaterialMe-Starter\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from D:\acad\acad\acad\android-fundamentals-starter-apps-v2\MaterialMe-Starter\app\src\main\AndroidManifest.xml
-		ADDED from D:\acad\acad\acad\android-fundamentals-starter-apps-v2\MaterialMe-Starter\app\src\main\AndroidManifest.xml
-		INJECTED from D:\acad\acad\acad\android-fundamentals-starter-apps-v2\MaterialMe-Starter\app\src\main\AndroidManifest.xml
+		INJECTED from D:\acad\acad\acad\MaterialMe-Starter\app\src\main\AndroidManifest.xml
+		ADDED from D:\acad\acad\acad\MaterialMe-Starter\app\src\main\AndroidManifest.xml
+		INJECTED from D:\acad\acad\acad\MaterialMe-Starter\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from D:\acad\acad\acad\android-fundamentals-starter-apps-v2\MaterialMe-Starter\app\src\main\AndroidManifest.xml
-		ADDED from D:\acad\acad\acad\android-fundamentals-starter-apps-v2\MaterialMe-Starter\app\src\main\AndroidManifest.xml
-		INJECTED from D:\acad\acad\acad\android-fundamentals-starter-apps-v2\MaterialMe-Starter\app\src\main\AndroidManifest.xml
+		INJECTED from D:\acad\acad\acad\MaterialMe-Starter\app\src\main\AndroidManifest.xml
+		ADDED from D:\acad\acad\acad\MaterialMe-Starter\app\src\main\AndroidManifest.xml
+		INJECTED from D:\acad\acad\acad\MaterialMe-Starter\app\src\main\AndroidManifest.xml
