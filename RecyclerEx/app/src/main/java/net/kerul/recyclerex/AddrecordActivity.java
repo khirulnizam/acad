@@ -33,7 +33,7 @@ public class AddrecordActivity extends AppCompatActivity {
         if(db.insert(dbhelper.TABLENAME,null,val)==-1){
             Toast.makeText(this,"Cannot save record",Toast.LENGTH_SHORT).show();
         }else{
-
+            Toast.makeText(this,"Record save",Toast.LENGTH_SHORT).show();
         }
 
     }
