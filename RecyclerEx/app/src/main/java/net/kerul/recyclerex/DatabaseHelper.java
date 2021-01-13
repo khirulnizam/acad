@@ -5,9 +5,9 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
 public class DatabaseHelper extends SQLiteOpenHelper {
-    private static final String DATABASENAME="keepword.db";
-    private static final int DATABASEVERSION=1;
-    private static final String TABLENAME="tbl_words";
+    public static final String DATABASENAME="keepword.db";
+    public static final int DATABASEVERSION=1;
+    public static final String TABLENAME="tbl_words";
     //constructor
     public DatabaseHelper (Context context){
         super (context, DATABASENAME, null, DATABASEVERSION);
