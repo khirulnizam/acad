@@ -20,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
         mWordList.add("Learning Android Studio 4");
         mWordList.add("Layout XML");
         mWordList.add("Java Programming");
+        mWordList.add("OOP");
         //display the words
         // Get a handle to the RecyclerView.
         mRecyclerView = findViewById(R.id.recyclerview);

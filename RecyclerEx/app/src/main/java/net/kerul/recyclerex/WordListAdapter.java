@@ -1,6 +1,7 @@
 package net.kerul.recyclerex;
 
 import android.content.Context;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -38,6 +39,7 @@ public class WordListAdapter extends RecyclerView.Adapter<WordListAdapter.WordVi
 
     @Override
     public int getItemCount() {
+        Log.d("mWordList",Integer.toString(mWordList.size()));
         return mWordList.size();
     }
 
