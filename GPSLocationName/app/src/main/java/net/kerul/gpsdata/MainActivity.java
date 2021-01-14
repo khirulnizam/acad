@@ -59,7 +59,7 @@ public class MainActivity extends AppCompatActivity implements
         tvGPS = (TextView)findViewById(R.id.tvGPS);
         tvaddress = (TextView)findViewById(R.id.tvaddress);
         progressDialog=new ProgressDialog(this);
-        txtphonenumber=(EditText)findViewById(R.id.txtphonenumber);
+        //txtphonenumber=(EditText)findViewById(R.id.txtphonenumber);
 
         //progress dialog
         progressDialog.show();
