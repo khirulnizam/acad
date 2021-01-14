@@ -49,15 +49,13 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
 
         //proximity
         mSensorProximity = mSensorManager.getDefaultSensor(Sensor.TYPE_PROXIMITY);
-        //mSensorProximity = mSensorManager.getDefaultSensor(Sensor.TYPE_LIGHT);
         String sensor_error = "Proximity sensor error";
         if (mSensorProximity == null) {
             mTextSensorProximity.setText(sensor_error);
         }
 
         //light
-        mSensorProximity = mSensorManager.getDefaultSensor(Sensor.TYPE_PROXIMITY);
-        //mSensorProximity = mSensorManager.getDefaultSensor(Sensor.TYPE_LIGHT);
+        mSensorLight = mSensorManager.getDefaultSensor(Sensor.TYPE_LIGHT);
         String sensor_error_light = "Light sensor error";
         if (mSensorLight == null) {
             mTextSensorLight.setText(sensor_error_light);
@@ -87,7 +85,7 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
             mTextSensorProximity.setText("Proximity:"+currentValue);
         }
         else if (sensorType==Sensor.TYPE_LIGHT){
-            mTextSensorProximity.setText("Light sensor:"+currentValue);
+            mTextSensorLight.setText("Light sensor:"+currentValue);
         }
     }
 
