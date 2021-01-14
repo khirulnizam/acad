@@ -1,0 +1,4 @@
+#Thu Jan 14 10:58:32 SGT 2021
+base.0=D\:\\acad\\acad\\acad\\HelloSharedPrefs\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex

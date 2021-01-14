@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void startTask(View view){
         //call the AsyncTask
-        new TestAsync(mTextView).execute();
+        new TestAsync(mTextView, this).execute();
     }
 
 }
