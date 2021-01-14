@@ -16,13 +16,19 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
     private SensorManager mSensorManager;
     private Sensor mSensorProximity;
     private TextView mTextSensorProximity;
+    private Sensor mSensorLight;
+    private TextView mTextSensorLight;
 
     @Override
     protected void onStart() {
         super.onStart();
         if (mSensorProximity != null) {
             mSensorManager.registerListener(this, mSensorProximity,
-                    SensorManager.SENSOR_DELAY_NORMAL);
+                    SensorManager.SENSOR_DELAY_FASTEST);
+        }
+        if (mSensorLight != null) {
+            mSensorManager.registerListener(this, mSensorLight,
+                    SensorManager.SENSOR_DELAY_FASTEST);
         }
     }//onstart
     @Override
@@ -38,11 +44,23 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
 
         //to display proximity sensors
         mTextSensorProximity = (TextView) findViewById(R.id.tvproximity);
-        //mSensorProximity = mSensorManager.getDefaultSensor(Sensor.TYPE_PROXIMITY);
-        mSensorProximity = mSensorManager.getDefaultSensor(Sensor.TYPE_LIGHT);
-        String sensor_error = "Light sensor error";
+        mTextSensorLight = (TextView) findViewById(R.id.tvlight);
+        mSensorManager = (SensorManager)getSystemService(SENSOR_SERVICE);//add
+
+        //proximity
+        mSensorProximity = mSensorManager.getDefaultSensor(Sensor.TYPE_PROXIMITY);
+        //mSensorProximity = mSensorManager.getDefaultSensor(Sensor.TYPE_LIGHT);
+        String sensor_error = "Proximity sensor error";
         if (mSensorProximity == null) {
             mTextSensorProximity.setText(sensor_error);
+        }
+
+        //light
+        mSensorProximity = mSensorManager.getDefaultSensor(Sensor.TYPE_PROXIMITY);
+        //mSensorProximity = mSensorManager.getDefaultSensor(Sensor.TYPE_LIGHT);
+        String sensor_error_light = "Light sensor error";
+        if (mSensorLight == null) {
+            mTextSensorLight.setText(sensor_error_light);
         }
 
         //initiate sensor object
