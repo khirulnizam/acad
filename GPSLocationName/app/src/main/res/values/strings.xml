@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">GPSdata</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="address_text">"Address: %1$s \n Timestamp: %2$tr"</string>
+    <string name="no_address_found">No Address Found</string>
+    <string name="service_not_available">Service Not Available</string>
+    <string name="invalid_lat_long_used">Invalid Lat Long Used</string>
+    <string name="loading">Loading address...</string>
+</resources>
