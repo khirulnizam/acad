@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_help">Bantuan</string>
+    <string name="app_name">Kolokasi</string>
+    <string name="description">Kuih kegemaran</string>
+    <string name="dial_log_message">Ralat pada ACTION_DIALOG</string>
+    <string name="help_text">Hubungi sekiranya perlukan bantuan</string>
+    <string name="nougat">Pakej Kuih</string>
+    <string name="support_phone">+60129034614</string>
+</resources>
