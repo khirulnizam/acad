@@ -16,6 +16,7 @@ import com.google.android.gms.tasks.OnSuccessListener;
 public class MainActivity extends AppCompatActivity {
     private FusedLocationProviderClient fusedLocationClient;
     private double lat;
+    //Location location;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -38,10 +39,11 @@ public class MainActivity extends AppCompatActivity {
                 .addOnSuccessListener(this, new OnSuccessListener<Location>() {
                     @Override
                     public void onSuccess(Location location) {
-                            lat = location.getLatitude();
+
                         // Got last known location. In some rare situations this can be null.
                         if (location != null) {
                             // Logic to handle location object
+                            lat = location.getLatitude();
                         }
                     }
                 });
