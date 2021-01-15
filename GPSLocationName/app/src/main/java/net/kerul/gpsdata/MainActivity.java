@@ -97,7 +97,7 @@ public class MainActivity extends AppCompatActivity implements
                             wayLongitude = location.getLongitude();
                             tvGPS.setText(String.format(Locale.ENGLISH, " 1GPS Lat:Long %s -- %s", wayLatitude, wayLongitude));
                             //show progress dialog
-                            progressDialog.show();
+                            //progressDialog.show();
                             //fetch address
                             new FetchAddressTask(MainActivity.this,MainActivity.this).execute(location);
                         }
@@ -146,6 +146,7 @@ public class MainActivity extends AppCompatActivity implements
                             wayLatitude = location.getLatitude();
                             wayLongitude = location.getLongitude();
                             tvGPS.setText(String.format(Locale.ENGLISH, " GPS Lat:Long %s -- %s", wayLatitude, wayLongitude));
+                            mlocation=location;
                         }
                     });
                 } else {

@@ -22,6 +22,8 @@ public class MainActivity extends AppCompatActivity {
     String phoneme = "+60129034614";
     //call direct
     public void calldirect(View v){
+        //test enter the function
+        Toast.makeText(this,"Enter calldirect",Toast.LENGTH_SHORT).show();
 
         //check uses-permission
         if (ActivityCompat.checkSelfPermission(MainActivity.this, Manifest.permission.CALL_PHONE) !=
